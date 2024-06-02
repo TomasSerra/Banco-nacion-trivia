@@ -1,0 +1,87 @@
+.home-page{
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    background-image: url('../../assets/imgs/home/fondo.png');
+    background-size: cover;
+    background-position: center;
+
+    .hidden-upload-button{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 15vw;
+        height: 15vw;
+        background-color: transparent;
+        z-index: 100;
+    }
+
+    .hidden-delete-button{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 15vw;
+        height: 15vw;
+        background-color: transparent;
+        z-index: 100;
+    }
+
+    .top-section{
+        margin: 4dvh 0;
+        display: flex;
+        justify-content: center;
+
+        img{
+            width: 20vw;
+        }
+    }
+
+    .title-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 90vw;
+        margin-top: 25dvh;
+
+        h1{
+            font-size: 10vw;
+            color: #ffffff;
+            margin-top: 3dvh;
+            margin-bottom: 1dvh;
+            
+        }
+
+        h2{
+            margin: 0;
+            font-size: 5.5vw;
+            color: #ffffff;
+        }
+    }
+
+    .button-section{
+        position: absolute;
+        bottom: 14dvh;
+        right: 3vw;
+
+        button{
+            width: 43vw;
+            height: 11vw;
+            background: rgb(35,182,216);
+            background: -moz-linear-gradient(0deg, rgba(35,182,216,1) 0%, rgba(74,221,255,1) 100%);
+            background: -webkit-linear-gradient(0deg, rgba(35,182,216,1) 0%, rgba(74,221,255,1) 100%);
+            background: linear-gradient(0deg, rgba(35,182,216,1) 0%, rgba(74,221,255,1) 100%);
+            color: white;
+            font-size: 6vw;
+            border: none;
+            border-radius: 100dvh;
+            cursor: pointer;
+            font-family: 'Kievit Bold';
+            box-shadow: rgba(0, 0, 0, 0.226) 0 0 50px;
+        }
+    }
+}
