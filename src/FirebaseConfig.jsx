@@ -4,12 +4,11 @@ import 'firebase/database';
 // Configura Firebase con la configuración de tu proyecto
 const firebaseConfig = {
   apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: "trivia-nacion-seguros.firebaseapp.com",
-  databaseURL: "https://trivia-nacion-seguros-default-rtdb.firebaseio.com",
-  projectId: "trivia-nacion-seguros",
-  storageBucket: "trivia-nacion-seguros.appspot.com",
-  messagingSenderId: "930718249540",
-  appId: "1:930718249540:web:23b237448e2a42e924c211"
+  authDomain: "trivia-banco-nacion.firebaseapp.com",
+  projectId: "trivia-banco-nacion",
+  storageBucket: "trivia-banco-nacion.appspot.com",
+  messagingSenderId: "631796970978",
+  appId: "1:631796970978:web:48c3ecce793c9b1c6cf5bb"
 };
 
 const app = initializeApp(firebaseConfig);

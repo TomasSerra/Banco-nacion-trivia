@@ -1,6 +1,5 @@
 import React, {useState} from 'react'
 import './DeleteData.scss'
-import { set } from 'firebase/database'
 
 function DeleteData({closePopUp}) {
     const [message, setMessage] = useState()
