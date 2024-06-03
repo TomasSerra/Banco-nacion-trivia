@@ -31,10 +31,14 @@ function End({correctQuestions, totalQuestions, goToNextPage, logo}) {
         <h2>Respondiste {correctQuestions}/{totalQuestions} preguntas correctamente</h2>
       </div>
 
-      {((correctQuestions/totalQuestions) >= 0.5) &&
+      {((correctQuestions/totalQuestions) >= 0.5) ?
         <div className="prize-section">
           <img className='trophy' src={Trophy}/>
           <img className='trophy-bg' src={FondoTrofeo}/>
+        </div>
+        :
+        <div className="prize-section">
+          <h2>Seguí aprendiendo de Educación Financiera</h2>
         </div>
       }
 
