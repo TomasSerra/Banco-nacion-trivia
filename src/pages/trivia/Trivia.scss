@@ -41,13 +41,13 @@
         }
 
         .question-container{
-            font-size: 4vw;
+            font-size: 3.5vw;
             color: white;
             width: 80vw;
             border: solid white 1.5vw;
             background-color: #005381;
             height: fit-content;
-            min-height: 50vw;
+            min-height: 30vw;
             border-radius: 2dvh;
             padding: 2dvh;
             box-sizing: border-box;
@@ -79,7 +79,7 @@
             align-items: center;
             width: 100%;
             .option-button{
-                font-size: 4.5vw;
+                font-size: 3.5vw;
                 border: none;
                 background: rgb(229,229,229);
                 background: -moz-linear-gradient(0deg, rgba(229,229,229,1) 0%, rgba(255,255,255,1) 100%);
