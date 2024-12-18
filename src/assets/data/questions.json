@@ -1,194 +1,264 @@
 {
-  "1":
-  [
+  "PERSONAL": [
     {
-        "question": "¿Qué son los gastos imprescindibles?",
-        "options": [
-            "Son los gastos que podemos reducir.",
-            "Son los gastos que podemos dejar para más adelante.",
-            "Son los gastos que difícilmente podemos reducir."
-        ]
+      "question": "¿Qué son los ingresos?",
+      "options": [
+        "El dinero que gastás diariamente",
+        "La cantidad de dinero que le debés a un banco",
+        "El dinero que recibís por tu trabajo o por un emprendimiento"
+      ]
     },
     {
-        "question": "¿Qué es un presupuesto personal?",
-        "options": [
-            "Una materia de 5° año.",
-            "El precio que te pasan para pintar una habitación.",
-            "Una planilla donde registrás tus ingresos y gastos."
-        ]
+      "question": "¿Qué son los gastos hormiga?",
+      "options": [
+        "Son los gastos que difícilmente podemos reducir",
+        "Son los gastos imprescindibles en el mes",
+        "Son gastos chicos que a veces no tenemos en cuenta y podemos reducir"
+      ]
     },
     {
-        "question": "¿Qué es ahorrar?",
-        "options": [
-            "Separar residuos para su reciclaje.",
-            "Depositar plata en tu cuenta.",
-            "Separar una parte de tus ingresos periódicamente para usar en el futuro."
-        ]
+      "question": "¿Qué es un presupuesto personal?",
+      "options": [
+        "Una lista de cosas que quieres comprar",
+        "El precio que te pasan para pintar una habitación",
+        "Una planilla donde registrás tus ingresos y gastos"
+      ]
     },
     {
-        "question": "¿Qué son los objetivos financieros?",
-        "options": [
-            "Son promociones que podés aprovechar.",
-            "Son las materias que no te querés llevar a marzo.",
-            "Son metas financieras que te proponés alcanzar en un tiempo determinado."
-        ]
+      "question": "¿Qué son los gastos imprescindibles?",
+      "options": [
+        "Son los gastos que podemos reducir",
+        "Son los gastos que podemos dejar para más adelante",
+        "Son los gastos que difícilmente podemos reducir"
+      ]
     },
     {
-        "question": "Para ahorrar no necesito mucho dinero",
-        "options": [
-            "Falso",
-            "Verdadero"
-        ]
+      "question": "¿Por qué es importante tener un registro detallado de tus ingresos y gastos?",
+      "options": [
+        "Para no tener que ahorrar dinero",
+        "Para gastar sin preocupaciones",
+        "Para tomar mejores decisiones financieras"
+      ]
     },
     {
-        "question": "Si guardo mis ahorros en una alcancía, cuando la rompa voy a tener más plata",
-        "options": [
-            "Verdadero",
-            "Falso"
-        ]
+      "question": "¿Qué hacer si tus gastos superan a tus ingresos?",
+      "options": [
+        "Pedir un préstamo para cubrirlos",
+        "Ignorar la diferencia",
+        "Reducir gastos y/o buscar ingresos adicionales"
+      ]
+    }
+  ],
+  "AHORRO": [
+    {
+      "question": "¿Qué es el ahorro?",
+      "options": [
+        "Gastar todo tu ingreso",
+        "Invertir en criptomonedas",
+        "Separar una parte de tus ingresos periódicamente para utilizar en el futuro"
+      ]
     },
     {
-        "question": "¿Qué ventajas brinda tener una cuenta en un banco?",
-        "options": [
-            "Brinda mayor seguridad y protección.",
-            "Da acceso a descuentos y beneficios.",
-            "Permite acceder a herramientas de inversión.",
-            "Todas son correctas."
-        ]
+      "question": "¿Dónde es más seguro guardar tus ahorros?",
+      "options": [
+        "En una alcancía en casa",
+        "Bajo el colchón",
+        "En una cuenta de ahorros bancaria"
+      ]
     },
     {
-        "question": "¿Qué es el phishing?",
-        "options": [
-            "Ir a pescar al río.",
-            "Una comida típica de Japón.",
-            "Un tipo de estafa que busca engañarte y robar tus datos personales."
-        ]
+      "question": "¿Por qué es importante tener ahorros?",
+      "options": [
+        "Para hacer realidad tus proyectos en el futuro",
+        "Para tener una reserva ante una emergencia",
+        "Para tener bienestar financiero",
+        "Todas son correctas"
+      ]
     },
     {
-        "question": "¿Qué es un plazo fijo?",
-        "options": [
-            "Es una fecha inamovible del calendario.",
-            "Es el plazo que tenés para rendir un examen.",
-            "Es una herramienta de inversión que ofrecen los bancos."
-        ]
+      "question": "¿Qué son los objetivos financieros?",
+      "options": [
+        "Son promociones que podés aprovechar",
+        "Son las materias que no te querés llevar a marzo",
+        "Son metas financieras que te proponés alcanzar en un tiempo determinado"
+      ]
     },
     {
-        "question": "La tarjeta de crédito sirve para hacer compras y que la plata se debite de mi cuenta en ese momento",
-        "options": [
-            "Verdadero",
-            "Falso"
-        ]
+      "question": "¿Qué hábito favorece el ahorro?",
+      "options": [
+        "Gastar más plata plata en cosas que no necesito",
+        "Pedir préstamos para ahorrar más",
+        "Registrar tus gastos y fijar metas claras"
+      ]
+    }
+  ],
+  "BNA+": [
+    {
+      "question": "¿Qué es una billetera virtual?",
+      "options": [
+        "Un lugar físico para guardar dinero",
+        "Una App de apuestas online",
+        "Una aplicación que permite realizar operaciones financieras de manera digital"
+      ]
     },
     {
-        "question": "¿Qué es el pago mínimo de la tarjeta de crédito?",
-        "options": [
-            "Es cuando pagás en el momento lo que consumís.",
-            "Es cuando pagás todos tus consumos al final del mes.",
-            "Es un porcentaje del total de tu deuda a pagar."
-        ]
+      "question": "¿Qué beneficio ofrecen las herramientas digitales?",
+      "options": [
+        "Eliminan la necesidad de ahorrar",
+        "Permiten gastar sin límites",
+        "Mayor control y seguimiento de gastos"
+      ]
     },
     {
-        "question": "Si me llaman diciendo ser de un banco y me piden datos personales, ¿qué debo hacer?",
-        "options": [
-            "Atender y darles los datos que pidan.",
-            "Darle mis datos personales, los datos de mi familia, y pedirles una pizza con fainá.",
-            "No brindar información y consultar con mi sucursal la veracidad del llamado."
-        ]
+      "question": "¿Qué puedo realizar desde BNA+?",
+      "options": [
+        "Comprar criptomonedas",
+        "Escuchar los artistas que más me gustan",
+        "Pagar con Qr, transferir, invertir y realizar órdenes de extracción"
+      ]
     },
     {
-        "question": "¿Cómo puedo abrir una caja de ahorros?",
-        "options": [
-            "Únicamente de manera presencial en la sucursal más cercana.",
-            "No es posible abrir una caja de ahorros actualmente.",
-            "De manera presencial o virtual a través de la app BNA+."
-        ]
+      "question": "¿Qué ventajas tiene BNA+?",
+      "options": [
+        "Me permite realizar inversiones en segundos",
+        "Puedo sacar un préstamo al instante",
+        "Puedo pagar con QR y acceder a descuentos y beneficios",
+        "Todas son correctas"
+      ]
     },
     {
-        "question": "Me contactaron por redes sociales diciendo ser de un banco y me pidieron datos personales para participar de un sorteo ¿Qué debo hacer?",
-        "options": [
-            "Debo confiar en la persona que me contactó y darle todos los datos. ¡Por ahí esta vez gano algo!",
-            "Me da desconfianza, pero si insiste le paso mis datos. El premio es muy tentador.",
-            "No debo darle ningún dato. Es muy probable que sea una estafa."
-        ]
+      "question": "¿Desde BNA+ puedo abrir mi cuenta bancaria desde el celular 100% digital?",
+      "options": ["Falso", "Verdadero"]
+    }
+  ],
+  "SEGURIDAD": [
+    {
+      "question": "¿Qué es el phishing?",
+      "options": [
+        "Ir a pescar al río",
+        "Una comida típica de Japón",
+        "Un tipo de estafa que busca engañarte y robar tus datos personales"
+      ]
     },
     {
-        "question": "Un préstamo es una operación por la cual una persona o entidad presta dinero a otra a cambio del pago de un interés",
-        "options": [
-            "Falso",
-            "Verdadero"
-        ]
+      "question": "¿Cómo proteger tus contraseñas financieras?",
+      "options": [
+        "Escribiéndolas en una libreta y llevándola contigo",
+        "Usando la misma contraseña para todo",
+        "Usando contraseñas fáciles de recordar para vos y difíciles de adivinar para los demás"
+      ]
     },
     {
-        "question": "¿Dónde está mejor protegido el dinero?",
-        "options": [
-            "Debajo de la almohada",
-            "En el chanchito",
-            "En una cuenta bancaria"
-        ]
+      "question": "¿Qué hago si se comunican del banco y me piden datos personales?",
+      "options": [
+        "Le doy mis datos porque me prometen un premio",
+        "Les doy mis datos y les consulto si ya avisaron a mi papá",
+        "No brindo ningún dato y consulto con mi sucursal la veracidad del llamado"
+      ]
     },
     {
-        "question": "Una de las funciones principales de un banco es",
-        "options": [
-            "Atender a la comunidad y resolver todo tipo de problemáticas",
-            "Vender computadoras",
-            "Recibir y proteger el dinero de personas y empresas, y prestarlo a quienes los necesitan"
-        ]
+      "question": "¿Recibí un llamado de parte del banco diciendo que gané un premio y me piden mis datos personales. ¿Qué debo hacer?",
+      "options": [
+        "Darle mis datos y la foto de la tarjeta de crédito que me piden para ganar",
+        "Compartirle el código de verificación de whatsapp que recibo",
+        "No le doy ningún tipo de información y me contacto con el banco para corroborar si es cierto"
+      ]
     },
     {
-        "question": "¿Como se llama la operación bancaria a través de la cual retirás efectivo desde la app sin necesidad de tener tarjeta física?",
-        "options": [
-            "Transferencia",
-            "Pago QR",
-            "Orden de extracción"
-        ]
+      "question": "¿No es recomendable hacer comentarios públicos en redes sociales de los bancos porque…?",
+      "options": [
+        "Te pueden bloquear la tarjeta de crédito",
+        "Puede afectar tu historial crediticio",
+        "Otras personas pueden usar esa información pública y usarla para engañarte"
+      ]
+    }
+  ],
+  "CREDITO": [
+    {
+      "question": "¿Qué es un préstamo?",
+      "options": [
+        "Una cantidad de dinero que el banco te regala",
+        "Dinero que te acredita el banco en tu cuenta y no tenés un plazo para pagar",
+        "Es el dinero que te presta una institución financiera, que te comprometés a devolver y a pagar intereses"
+      ]
     },
     {
-        "question": "En tu presupuesto personal, toda la plata que ganás o recibís forman parte de los GASTOS",
-        "options": [
-            "Verdadero",
-            "Falso"
-        ]
+      "question": "¿Qué es la tasa de interés en un préstamo?",
+      "options": [
+        "Es la ganancia que recibís por la inversión",
+        "Es un descuento en el monto total del préstamo",
+        "Es el porcentaje adicional que debés pagar al devolver el préstamo"
+      ]
     },
     {
-        "question": "La tarjeta de débito está asociada a una Caja de Ahorros y no te permite realizar operaciones bancarias durante las 24 horas, los 365 días del año",
-        "options": [
-            "Verdadero",
-            "Falso"
-        ]
+      "question": "¿Qué debés hacer antes de solicitar un préstamo?",
+      "options": [
+        "Solicitar el monto máximo sin verificar las tasas",
+        "Elegir el banco que mejores descuentos ofrece",
+        "Analizar en qué vas a utilizar la plata y si vas a poder pagar las cuotas"
+      ]
     },
     {
-        "question": "Operación por la cual una persona o empresa da dinero a otra, a cambio del pago de un interés",
-        "options": [
-            "Transferencia",
-            "Pago de servicio",
-            "Préstamo"
-        ]
+      "question": "¿Qué pasa si no pagás las cuotas de tu préstamo?",
+      "options": [
+        "No sucede nada",
+        "El banco perdona tu deuda automáticamente",
+        "Tu historial crediticio se afecta y te puede generar más deuda en concepto de intereses"
+      ]
     },
     {
-        "question": "¿Para qué es importante tener ahorros?",
-        "options": [
-            "Para afrontar emergencias o eventos inesperados, como por ejemplo la rotura de la heladera",
-            "Para hacer realidad mis proyectos en el futuro",
-            "Para invertir y hacerlos crecer más",
-            "Todas son correctas"
-        ]
+      "question": "¿Qué podés comprar con un préstamo hipotecario?",
+      "options": ["Un auto", "Una computadora", "Una vivienda"]
+    }
+  ],
+  "INVERSION": [
+    {
+      "question": "¿Qué es una inversión?",
+      "options": [
+        "Es depositar tus ahorros en una cuenta bancaria",
+        "Es apostar parte de tu dinero en casinos online",
+        "Es destinar parte de tus ahorros en adquirir instrumentos del mercado financiero con el objetivo de obtener ganancias a futuro"
+      ]
     },
     {
-        "question": "Para ordenar mi economía personal, es importante realizar periódicamente",
-        "options": [
-            "Un chequeo médico de prevención",
-            "Compras con tarjeta de crédito en el supermercado",
-            "El presupuesto, donde registro ingresos y gastos"
-        ]
+      "question": "¿Qué es un plazo fijo?",
+      "options": [
+        "Es una fecha inamovible del calendario",
+        "Es el plazo que tenés para rendir un examen",
+        "Es una herramienta de inversión que ofrecen los bancos"
+      ]
     },
     {
-        "question": "Mientras más alta sea la ganancia ofrecida por una herramienta de inversión, más alto será riesgo",
-        "options": [
-            "Verdadero",
-            "Falso"
-        ]
+      "question": "¿Qué es la diversificación de tus inversiones?",
+      "options": [
+        "Poner tus ahorros en un solo instrumento financiero para maximizar las ganancias",
+        "Es comprar dólares todos los meses",
+        "Es invertir en diferentes instrumentos financieros para reducir riesgos"
+      ]
+    },
+    {
+      "question": "¿Qué es el riesgo en una inversión?",
+      "options": [
+        "Una garantía de que ganarás más dinero con tu inversión",
+        "Es una cobertura adicional que protege tus ahorros",
+        "Es un conjunto de factores que pueden hacer que el rendimiento de una inversión sea distinto al esperado"
+      ]
+    },
+    {
+      "question": "¿Qué es un Fondo común de inversión?",
+      "options": [
+        "Es un fondo para juntar donaciones",
+        "Es una colecta de plata para pagar el viaje de egresados",
+        "Es el conjunto de dinero formado por aportes de distintos inversores que tienen los mismos objetivos de rentabilidad y de riesgo aceptado"
+      ]
+    },
+    {
+      "question": "¿Qué debés hacer antes de hacer una inversión?",
+      "options": [
+        "Invertir en la opción que más rentabilidad te promete",
+        "Invertir solo por recomendación de un amigo",
+        "Analizar tu perfil como inversor, tus metas financieras y evaluar los riesgos"
+      ]
     }
   ]
-
 }
-  
