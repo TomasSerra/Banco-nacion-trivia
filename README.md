@@ -1,2 +1,2 @@
 # nacion-seguros-trivia
-Ruleta + trivia. Expo ganadera
+Ruleta + trivia.
