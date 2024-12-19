@@ -157,7 +157,7 @@
       ]
     },
     {
-      "question": "¿Recibí un llamado de parte del banco diciendo que gané un premio y me piden mis datos personales. ¿Qué debo hacer?",
+      "question": "¿Recibí un llamado de parte del banco diciendo que gané un premio y me piden mis datos personales ¿Qué debo hacer?",
       "options": [
         "Darle mis datos y la foto de la tarjeta de crédito que me piden para ganar",
         "Compartirle el código de verificación de whatsapp que recibo",
@@ -165,7 +165,7 @@
       ]
     },
     {
-      "question": "¿No es recomendable hacer comentarios públicos en redes sociales de los bancos porque…?",
+      "question": "¿No es recomendable hacer comentarios públicos en redes sociales de los bancos porque",
       "options": [
         "Te pueden bloquear la tarjeta de crédito",
         "Puede afectar tu historial crediticio",
