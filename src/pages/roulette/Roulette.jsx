@@ -51,7 +51,7 @@ function Roulette({ goToNextPage, questions, setTopic, logo }) {
     setTopic(data[prizeNumber].option);
     setTimeout(() => {
       goToNextPage();
-    }, 3000);
+    }, 2000);
   }
 
   return (
