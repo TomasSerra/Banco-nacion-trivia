@@ -72,6 +72,7 @@ function Trivia({
       thisQuestions[questionOrder[indexOfActualQuestion]]["question"]
     );
     setIndexOfActualQuestion((prev) => prev + 1);
+    setSelectedOption("");
     restartTimer();
   }
 
@@ -185,6 +186,15 @@ function Trivia({
 
         <div className="question-container">
           <h2>{actualQuestion}</h2>
+        </div>
+        <div
+          className="result-container"
+          style={{
+            backgroundColor: hasAnsweredCorrect ? "#25a244" : "#d32f2f",
+            opacity: selectedOption !== "" ? 1 : 0,
+          }}
+        >
+          <h3>{hasAnsweredCorrect ? "¡Correcto!" : "¡Incorrecto!"}</h3>
         </div>
       </div>
       <div className="options-section">

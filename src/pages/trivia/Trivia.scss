@@ -63,6 +63,26 @@
         text-align: center;
       }
     }
+
+    .result-container {
+      color: white;
+      font-size: 4vw;
+      font-family: "Kievit Bold";
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2dvh 2vw;
+      width: 80vw;
+      border-radius: 1.5dvh;
+      height: fit-content;
+      box-sizing: border-box;
+      margin-top: 2dvh;
+
+      h3 {
+        margin: 0;
+      }
+    }
   }
 
   .options-section {
@@ -72,6 +92,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
     .options-container {
       display: flex;
       flex-direction: column;
@@ -155,7 +176,7 @@
         }
       }
 
-      .option-button.selected.correct-option::after {
+      /*.option-button.selected.correct-option::after {
         content: "👍";
         position: absolute;
         right: -5vw;
@@ -173,7 +194,7 @@
         transform: translateY(-50%);
         color: white;
         font-size: 7vw;
-      }
+      }*/
     }
   }
 }
