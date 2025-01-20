@@ -158,7 +158,7 @@
       .option-button.selected.correct-option::after {
         content: "👍";
         position: absolute;
-        right: -40px;
+        right: -5vw;
         top: 50%;
         transform: translateY(-50%);
         color: white;
@@ -168,7 +168,7 @@
       .option-button.selected.incorrect-option::after {
         content: "👎";
         position: absolute;
-        right: -40px;
+        right: -5vw;
         top: 50%;
         transform: translateY(-50%);
         color: white;
