@@ -1,5 +1,5 @@
 {
-  "PERSONAL": [
+  "PRESUPUESTO": [
     {
       "question": "¿Qué son los ingresos?",
       "options": [
@@ -173,7 +173,7 @@
       ]
     }
   ],
-  "CREDITO": [
+  "CRÉDITO": [
     {
       "question": "¿Qué es un préstamo?",
       "options": [
@@ -211,7 +211,7 @@
       "options": ["Un auto", "Una computadora", "Una vivienda"]
     }
   ],
-  "INVERSION": [
+  "INVERSIÓN": [
     {
       "question": "¿Qué es una inversión?",
       "options": [
