@@ -11,41 +11,81 @@
     {
       "question": "¿Qué son los gastos hormiga?",
       "options": [
-        "Son los gastos que difícilmente podemos reducir",
+        "Son los gastos que difícilmente se pueden reducir",
         "Son los gastos imprescindibles en el mes",
-        "Son gastos chicos que a veces no tenemos en cuenta y podemos reducir"
+        "Son gastos chicos que a veces no tenés en cuenta y podés reducir."
       ]
     },
     {
       "question": "¿Qué es un presupuesto personal?",
       "options": [
         "Una lista de cosas que quieres comprar",
-        "El precio que te pasan para pintar una habitación",
-        "Una planilla donde registrás tus ingresos y gastos"
+        "El precio que te pasan para pintar una habitación.",
+        "Una planilla donde registrás tus ingresos y gastos."
       ]
     },
     {
       "question": "¿Qué son los gastos imprescindibles?",
       "options": [
-        "Son los gastos que podemos reducir",
-        "Son los gastos que podemos dejar para más adelante",
-        "Son los gastos que difícilmente podemos reducir"
+        "Son los gastos que podemos reducir.",
+        "Son los gastos que podemos dejar para más adelante.",
+        "Son los gastos que difícilmente podemos reducir."
       ]
     },
     {
       "question": "¿Por qué es importante tener un registro detallado de tus ingresos y gastos?",
       "options": [
-        "Para no tener que ahorrar dinero",
-        "Para gastar sin preocupaciones",
-        "Para tomar mejores decisiones financieras"
+        "Para no tener que ahorrar dinero.",
+        "Para gastar sin preocupaciones.",
+        "Para tomar mejores decisiones financieras."
       ]
     },
     {
-      "question": "¿Qué hacer si tus gastos superan a tus ingresos?",
+      "question": "¿Qué debés que hacer si tus gastos son superiores a tus ingresos?",
       "options": [
         "Pedir un préstamo para cubrirlos",
         "Ignorar la diferencia",
         "Reducir gastos y/o buscar ingresos adicionales"
+      ]
+    },
+    {
+      "question": "¿Por qué es importante anotar y registrar los gastos?",
+      "options": [
+        "Para saber cuánta plata podés prestar a otros.",
+        "Para que el banco te de mejores descuentos y beneficios.",
+        "Para identificar en qué se usa la plata y tomar mejores decisiones."
+      ]
+    },
+    {
+      "question": "¿Cuál de estas acciones ayuda a una buena planificación financiera?",
+      "options": [
+        "Pagar todos tus gastos y ver cuánto te sobra para ahorrar.",
+        "Gastar únicamente la plata que tenés",
+        "Organizar ingresos y gastos, separando una parte para el ahorro, apenas recibís un ingreso."
+      ]
+    },
+    {
+      "question": "¿Qué es un gasto planificado?",
+      "options": [
+        "Una compra impulsiva.",
+        "Una compra que hago cuando estoy triste, para levantar el ánimo.",
+        "Un gasto pensado de antemano, incluido en el presupuesto."
+      ]
+    },
+    {
+      "question": "¿Cuál de los siguientes es un gasto hormiga?",
+      "options": [
+        "El alquiler",
+        "El colectivo",
+        "Bolsita de caramelos en el kiosco"
+      ]
+    },
+    {
+      "question": "¿Cuál de los siguientes es un gasto imprescindible?",
+      "options": [
+        "Las entradas para el cine",
+        "La reserva hotelera para las vacaciones",
+        "La factura de luz"
       ]
     }
   ],
@@ -55,7 +95,7 @@
       "options": [
         "Gastar todo tu ingreso",
         "Invertir en criptomonedas",
-        "Separar una parte de tus ingresos periódicamente para utilizar en el futuro"
+        "Guardar una parte de tus ingresos para utilizar en el futuro."
       ]
     },
     {
@@ -67,28 +107,36 @@
       ]
     },
     {
+      "question": "¿Qué es un fondo de emergencia personal?",
+      "options": [
+        "Plata que ahorrás para tus vacaciones.",
+        "Un préstamo que pedís para tenerlo ahorrado.",
+        "Es un ahorro para imprevistos como problemas de salud o pérdida de un ingreso."
+      ]
+    },
+    {
       "question": "¿Por qué es importante tener ahorros?",
       "options": [
         "Para hacer realidad tus proyectos en el futuro",
-        "Para tener una reserva ante una emergencia",
-        "Para tener bienestar financiero",
+        "Para tener una reserva ante una emergencia.",
+        "Para tener bienestar financiero.",
         "Todas son correctas"
       ]
     },
     {
       "question": "¿Qué son los objetivos financieros?",
       "options": [
-        "Son promociones que podés aprovechar",
-        "Son las materias que no te querés llevar a marzo",
-        "Son metas financieras que te proponés alcanzar en un tiempo determinado"
+        "Son promociones que podés aprovechar.",
+        "Son las materias que no te querés llevar a marzo.",
+        "Son metas financieras que te proponés alcanzar en un tiempo determinado."
       ]
     },
     {
       "question": "¿Qué hábito favorece el ahorro?",
       "options": [
-        "Gastar más plata plata en cosas que no necesito",
+        "Gastar más plata en cosas que no necesitás",
         "Pedir préstamos para ahorrar más",
-        "Registrar tus gastos y fijar metas claras"
+        "Registrar ingresos y gastos y fijar metas claras"
       ]
     }
   ],
@@ -98,15 +146,23 @@
       "options": [
         "Un lugar físico para guardar dinero",
         "Una App de apuestas online",
-        "Una aplicación que permite realizar operaciones financieras de manera digital"
+        "Una aplicación que permite realizar operaciones financieras desde el celular"
       ]
     },
     {
-      "question": "¿Qué beneficio ofrecen las herramientas digitales?",
+      "question": "¿Qué beneficio ofrecen las herramientas financieras digitales?",
       "options": [
         "Eliminan la necesidad de ahorrar",
         "Permiten gastar sin límites",
-        "Mayor control y seguimiento de gastos"
+        "Mayor control, seguimiento de gastos y ahorro de tiempo"
+      ]
+    },
+    {
+      "question": "¿Qué es BNA+?",
+      "options": [
+        "Un cajero automático exclusivo del BNA.",
+        "Una aplicación para pedir préstamos.",
+        "Una billetera virtual del Banco Nación que permite pagar, cobrar y operar desde el celular."
       ]
     },
     {
@@ -114,30 +170,33 @@
       "options": [
         "Comprar criptomonedas",
         "Escuchar los artistas que más me gustan",
-        "Pagar con Qr, transferir, invertir y realizar órdenes de extracción"
+        "Pagar con Qr, hacer transferencias, invertir, realizar órdenes de extracción"
+      ]
+    },
+    {
+      "question": "Desde BNA+ puedo abrir mi cuenta bancaria desde el celular 100% digital.",
+      "options": [
+        "Falso",
+        "Verdadero"
       ]
     },
     {
       "question": "¿Qué ventajas tiene BNA+?",
       "options": [
         "Me permite realizar inversiones en segundos",
-        "Puedo sacar un préstamo al instante",
+        "Puedo sacar un préstamo al instante.",
         "Puedo pagar con QR y acceder a descuentos y beneficios",
         "Todas son correctas"
       ]
-    },
-    {
-      "question": "¿Desde BNA+ puedo abrir mi cuenta bancaria desde el celular 100% digital?",
-      "options": ["Falso", "Verdadero"]
     }
   ],
   "SEGURIDAD": [
     {
       "question": "¿Qué es el phishing?",
       "options": [
-        "Ir a pescar al río",
-        "Una comida típica de Japón",
-        "Un tipo de estafa que busca engañarte y robar tus datos personales"
+        "Ir a pescar al río.",
+        "Una comida típica de Japón.",
+        "Un tipo de estafa que busca engañarte y robar tus datos personales, mediante enlaces sospechosos."
       ]
     },
     {
@@ -145,31 +204,55 @@
       "options": [
         "Escribiéndolas en una libreta y llevándola contigo",
         "Usando la misma contraseña para todo",
-        "Usando contraseñas fáciles de recordar para vos y difíciles de adivinar para los demás"
+        "Usando contraseñas seguras, fáciles de recordar para vos y difíciles de adivinar para los demás"
       ]
     },
     {
       "question": "¿Qué hago si se comunican del banco y me piden datos personales?",
       "options": [
-        "Le doy mis datos porque me prometen un premio",
-        "Les doy mis datos y les consulto si ya avisaron a mi papá",
-        "No brindo ningún dato y consulto con mi sucursal la veracidad del llamado"
+        "Le doy mis datos para evitar problemas",
+        "Les pido que se comuniquen más tardes.",
+        "No brindo ningún dato, corto la comunicación y consulto al banco por sus canales oficiales."
       ]
     },
     {
-      "question": "¿Recibí un llamado de parte del banco diciendo que gané un premio y me piden mis datos personales ¿Qué debo hacer?",
+      "question": "Recibís un llamado de parte del banco diciendo que ganaste un premio y te piden datos personales ¿Qué debés hacer?",
       "options": [
-        "Darle mis datos y la foto de la tarjeta de crédito que me piden para ganar",
-        "Compartirle el código de verificación de whatsapp que recibo",
-        "No le doy ningún tipo de información y me contacto con el banco para corroborar si es cierto"
+        "Darle tus datos y la foto de la tarjeta de crédito que piden para ganar",
+        "Compartirle el código de verificación de WhatsApp que recibo.",
+        "Desconfiar, y no brindar ningún tipo de información personal."
       ]
     },
     {
-      "question": "¿No es recomendable hacer comentarios públicos en redes sociales de los bancos porque",
+      "question": "No es recomendable hacer comentarios públicos en redes sociales de los bancos porque…",
       "options": [
         "Te pueden bloquear la tarjeta de crédito",
-        "Puede afectar tu historial crediticio",
+        "Puede afectar tu historial crediticio.",
         "Otras personas pueden usar esa información pública y usarla para engañarte"
+      ]
+    },
+    {
+      "question": "¿Qué datos jamás deben compartirse con nadie?",
+      "options": [
+        "Número de celular.",
+        "Alias de tu cuenta.",
+        "Clave PIN o de home Banking, códigos de seguridad y Token"
+      ]
+    },
+    {
+      "question": "¿Qué es una clave token?",
+      "options": [
+        "La contraseña para ingresar a BNA+.",
+        "Una serie de números que te piden para comprar con tarjeta de crédito.",
+        "Una clave dinámica que aumenta la seguridad de una operación digital."
+      ]
+    },
+    {
+      "question": "Si recibís un mail o mensaje del banco diciendo que se está por bloquear tu cuenta, debés…",
+      "options": [
+        "Entrar al link y completar los datos que te piden",
+        "Responder brindando tu usuario y contraseña para que te solucionen el problema",
+        "No ingresar a enlaces ni completar información, verificar el remitente en el caso de los mails y chequear la información a través de canales oficiales del banco."
       ]
     }
   ],
@@ -178,14 +261,14 @@
       "question": "¿Qué es un préstamo?",
       "options": [
         "Una cantidad de dinero que el banco te regala",
-        "Dinero que te acredita el banco en tu cuenta y no tenés un plazo para pagar",
+        "Dinero que te acredita el banco en tu cuenta y no tenés un plazo para pagar.",
         "Es el dinero que te presta una institución financiera, que te comprometés a devolver y a pagar intereses"
       ]
     },
     {
       "question": "¿Qué es la tasa de interés en un préstamo?",
       "options": [
-        "Es la ganancia que recibís por la inversión",
+        "Es el riesgo que tiene una inversión",
         "Es un descuento en el monto total del préstamo",
         "Es el porcentaje adicional que debés pagar al devolver el préstamo"
       ]
@@ -193,9 +276,9 @@
     {
       "question": "¿Qué debés hacer antes de solicitar un préstamo?",
       "options": [
-        "Solicitar el monto máximo sin verificar las tasas",
+        "Solicitar el monto máximo sin verificar las tasas.",
         "Elegir el banco que mejores descuentos ofrece",
-        "Analizar en qué vas a utilizar la plata y si vas a poder pagar las cuotas"
+        "Analizar en qué vas a utilizar la plata y si vas a poder pagar las cuotas."
       ]
     },
     {
@@ -208,14 +291,82 @@
     },
     {
       "question": "¿Qué podés comprar con un préstamo hipotecario?",
-      "options": ["Un auto", "Una computadora", "Una vivienda"]
+      "options": [
+        "Un auto",
+        "Una computadora",
+        "Una vivienda"
+      ]
+    },
+    {
+      "question": "¿Qué es una tarjeta de crédito?",
+      "options": [
+        "Es un medio de pago que te permite hacer compras y que la plata se debite de tu cuenta en el momento.",
+        "Es un medio de pago que te permite transferir plata a otra cuenta.",
+        "Es un medio de pago que te permite hacer compras y pagar más adelante"
+      ]
+    },
+    {
+      "question": "¿Qué es el pago mínimo de tu tarjeta de crédito?",
+      "options": [
+        "Es cuando pagás en el momento lo que consumís.",
+        "Es cuando pagás todos tus consumos al final del mes.",
+        "Es cuando pagás solo un porcentaje del total del resumen y hace que pagues intereses"
+      ]
+    },
+    {
+      "question": "¿Qué es el límite de compra en tu tarjeta de crédito?",
+      "options": [
+        "Es el monto que tenés que pagar cada mes",
+        "Es el saldo máximo disponible en tu cuenta bancaria",
+        "Es la cantidad máxima de plata que podés gastar en el mes."
+      ]
+    },
+    {
+      "question": "¿Cuál de las siguientes opciones es una buena práctica en el uso de tu tarjeta de crédito?",
+      "options": [
+        "Usar el límite de compra máximo todos los meses",
+        "Prestársela a mis amigos para que aprovechen los descuentos.",
+        "Pagar el saldo total de la deuda cada mes."
+      ]
+    },
+    {
+      "question": "¿Qué es el historial crediticio?",
+      "options": [
+        "Es una carta de presentación para conseguir empleo",
+        "Es tu historia clínica que consulta tu médico",
+        "Es un registro detallado de tus actividades de crédito en todo el sistema financiero y refleja tu comportamiento de pago de deudas."
+      ]
+    },
+    {
+      "question": "¿Qué pasa si no pagás el resumen de tu tarjeta de crédito a tiempo?",
+      "options": [
+        "Podés pagarlo hasta 20 días después, sin penalidad.",
+        "Recibís un aumento en el límite para seguir usando la tarjeta.",
+        "Tenés que pagar intereses por cada día de atraso en el pago."
+      ]
+    },
+    {
+      "question": "¿Qué significa pagar en cuotas con la tarjeta de crédito?",
+      "options": [
+        "Hacer un pago con recargo",
+        "Pagar la totalidad de la compra al vencimiento del resumen",
+        "Pagar tu compra en partes, en un plazo de tiempo"
+      ]
+    },
+    {
+      "question": "¿Qué es el costo financiero total (CFT)?",
+      "options": [
+        "La tasa de interés neta que se paga por pedir dinero prestado",
+        "El monto que te puede prestar el banco cuando al solicitar un préstamo",
+        "El costo total de un préstamo, incluyendo tasa de interés, impuestos y gastos administrativos"
+      ]
     }
   ],
   "INVERSIÓN": [
     {
       "question": "¿Qué es una inversión?",
       "options": [
-        "Es depositar tus ahorros en una cuenta bancaria",
+        "Es depositar tus ahorros en una cuenta bancaria.",
         "Es apostar parte de tu dinero en casinos online",
         "Es destinar parte de tus ahorros en adquirir instrumentos del mercado financiero con el objetivo de obtener ganancias a futuro"
       ]
@@ -223,16 +374,16 @@
     {
       "question": "¿Qué es un plazo fijo?",
       "options": [
-        "Es una fecha inamovible del calendario",
-        "Es el plazo que tenés para rendir un examen",
-        "Es una herramienta de inversión que ofrecen los bancos"
+        "Es una fecha inamovible del calendario.",
+        "Es el plazo que tenés para rendir un examen.",
+        "Es una herramienta de inversión que ofrecen los bancos."
       ]
     },
     {
       "question": "¿Qué es la diversificación de tus inversiones?",
       "options": [
-        "Poner tus ahorros en un solo instrumento financiero para maximizar las ganancias",
-        "Es comprar dólares todos los meses",
+        "Poner tus ahorros en un solo instrumento financiero para maximizar las ganancias.",
+        "Es comprar dólares todos los meses.",
         "Es invertir en diferentes instrumentos financieros para reducir riesgos"
       ]
     },
@@ -240,24 +391,64 @@
       "question": "¿Qué es el riesgo en una inversión?",
       "options": [
         "Una garantía de que ganarás más dinero con tu inversión",
-        "Es una cobertura adicional que protege tus ahorros",
-        "Es un conjunto de factores que pueden hacer que el rendimiento de una inversión sea distinto al esperado"
+        "Es una cobertura adicional que protege tus ahorros.",
+        "Es un conjunto de factores que pueden hacer que el rendimiento de una inversión sea distinto al esperado."
       ]
     },
     {
-      "question": "¿Qué es un Fondo común de inversión?",
+      "question": "¿Qué es una fondo común de inversión?",
       "options": [
         "Es un fondo para juntar donaciones",
         "Es una colecta de plata para pagar el viaje de egresados",
-        "Es el conjunto de dinero formado por aportes de distintos inversores que tienen los mismos objetivos de rentabilidad y de riesgo aceptado"
+        "Es el conjunto de dinero formado por aportes de distintos inversores que tienen los mismos objetivos de rentabilidad y de riesgo aceptado."
       ]
     },
     {
       "question": "¿Qué debés hacer antes de hacer una inversión?",
       "options": [
         "Invertir en la opción que más rentabilidad te promete",
-        "Invertir solo por recomendación de un amigo",
-        "Analizar tu perfil como inversor, tus metas financieras y evaluar los riesgos"
+        "Invertir por recomendaciones de influencer en redes sociales",
+        "Analizar tu perfil como inversor, tus metas financieras y evaluar los riesgos."
+      ]
+    },
+    {
+      "question": "¿Cuál es el objetivo del test del inversor?",
+      "options": [
+        "Calcular cuánto dinero tenés ahorrado.",
+        "Solicitar un préstamo de inmediato.",
+        "Identificar tu perfil de riesgo para elegir inversiones adecuadas."
+      ]
+    },
+    {
+      "question": "Si ahorro el 10% de mis ingresos y los invierto en plazo fijo, en 10 años voy a…",
+      "options": [
+        "Mantener la cantidad de plata ahorrada",
+        "Voy a perder plata pero va a estar más segura.",
+        "Voy a tener un crecimiento de mis ahorros."
+      ]
+    },
+    {
+      "question": "¿Qué es la tasa de interés compuesta?",
+      "options": [
+        "El interés que se aplica solo sobre el capital inicial que invertiste.",
+        "Un tipo de interés que se cobra únicamente en inversiones de largo plazo.",
+        "El interés que se calcula sobre el capital inicial que invertiste, más los intereses generados anteriormente."
+      ]
+    },
+    {
+      "question": "En el largo plazo, si reinvierto mis ahorros incorporando los intereses que gané, voy a",
+      "options": [
+        "Tener un crecimiento lineal/moderado de mis inversiones",
+        "Perder la oportunidad de gastar lo que pude ganar.",
+        "Tener un crecimiento exponencial de mis inversiones"
+      ]
+    },
+    {
+      "question": "¿Cuál de estas situaciones describe mejor el efecto del interés compuesto?",
+      "options": [
+        "Recibir siempre el mismo monto de interés cada mes.",
+        "Que la inversión esté protegida contra cualquier variación.",
+        "Que los intereses generen nuevos intereses con el paso del tiempo."
       ]
     }
   ]
