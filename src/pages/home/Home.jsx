@@ -41,7 +41,7 @@ function Home({goToNextPage, logo}) {
         </div>
         <div className="title-section">
 			<h1>¡Bienvenido!</h1>
-			<h2>Demostrá cuanto conoces de educación financiera</h2>
+			<h2>Demostrá cuanto conocés de educación financiera</h2>
         </div>
         <div className="button-section">
             <button onClick={goToNextPage}>Jugar <span>&#8594;</span></button>
