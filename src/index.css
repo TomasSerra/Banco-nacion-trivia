@@ -1,16 +1,27 @@
 @font-face {
+  font-family: 'Kievit';
+  src: url('./assets/fonts/Kievit Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
   font-family: 'Kievit Bold';
-  src: url(./assets/fonts/Kievit\ Bold.otf);
+  src: url('./assets/fonts/Kievit Bold.ttf') format('truetype');
 }
 
 body {
   margin: 0;
-  font-family: 'Kievit Bold';
+  font-family: 'Kievit', sans-serif;
+  font-weight: bold;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow: hidden;
   touch-action: none;
   user-select: none;
+}
+
+* {
+  font-family: 'Kievit', sans-serif;
 }
 
 img {

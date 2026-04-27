@@ -36,15 +36,13 @@ function Home({goToNextPage, logo}) {
 		<div className='hidden-delete-button' onClick={secretDeleteButton}></div>
 		{openUploadPopUp && <UploadData closePopUp={() => {setOpenUploadPopUp(false)}}/>}
 		{openDeletePopUp && <DeleteData closePopUp={() => {setOpenDeletePopUp(false)}}/>}
-        <div className="top-section">
-        	<img src={logo} />
+        <div className="center">
+			<h1>¡Te damos la <br/>bienvenida!</h1>
+			<p>Demostrá cuánto conocés <br/>de educación financiera</p>
+			<button className="play-button" onClick={goToNextPage} aria-label="Vamos a jugar" />
         </div>
-        <div className="title-section">
-			<h1>¡Bienvenido!</h1>
-			<h2>Demostrá cuanto conocés de educación financiera</h2>
-        </div>
-        <div className="button-section">
-            <button onClick={goToNextPage}>Jugar <span>&#8594;</span></button>
+        <div className="footer">
+        	<img src={logo} alt="Banco Nación" />
         </div>
     </div>
   )

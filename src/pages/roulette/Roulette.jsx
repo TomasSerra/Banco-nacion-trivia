@@ -1,6 +1,20 @@
 import React, { useEffect, useState } from "react";
 import "./Roulette.scss";
 import { Wheel } from "react-custom-roulette";
+import Icono from "../../assets/imgs/general/icono.png";
+
+const CATEGORY_COLORS = {
+  "INVERSIÓN": "#4FA786",
+  "INVERSION": "#4FA786",
+  "PRESUPUESTO": "#C49A6E",
+  "BNA+": "#2E7CB5",
+  "AHORRO": "#6BA3D0",
+  "SEGURIDAD": "#18435A",
+  "CRÉDITO": "#7E72A8",
+  "CREDITO": "#7E72A8",
+};
+
+const FALLBACK_COLORS = ["#4FA786", "#C49A6E", "#2E7CB5", "#6BA3D0", "#18435A", "#7E72A8"];
 
 function Roulette({ goToNextPage, questions, setTopic, logo }) {
   const [prizeNumber, setPrizeNumber] = useState(0);
@@ -8,32 +22,19 @@ function Roulette({ goToNextPage, questions, setTopic, logo }) {
   const [rotate, setRotate] = useState(false);
   const [data, setData] = useState([]);
 
-  const colors = [
-    "#ef476f",
-    "#06d6a0",
-    "#fb8500",
-    "#118ab2",
-    "#9381ff",
-    "#a5be00",
-  ];
-
-  //Bloquear click derecho
   useEffect(() => {
     getData();
   }, []);
 
   function getData() {
-    let i = 0;
-    let data = [];
-    Object.keys(questions).map((key) => {
-      data.push({
-        option: key,
-        style: { backgroundColor: colors[i], textColor: "white" },
-      });
-      i++;
-    });
+    const data = Object.keys(questions).map((key, i) => ({
+      option: key,
+      style: {
+        backgroundColor: CATEGORY_COLORS[key.toUpperCase()] ?? FALLBACK_COLORS[i % FALLBACK_COLORS.length],
+        textColor: "white",
+      },
+    }));
     setData(data);
-    console.log(data);
   }
 
   function rotateRoulette() {
@@ -61,38 +62,47 @@ function Roulette({ goToNextPage, questions, setTopic, logo }) {
         if (text) rotateRoulette();
       }}
     >
-      <div className="top-section">
-        <img src={logo} alt="logo" />
-      </div>
+      {text && (
+        <p className="roulette-title">Tocá la pantalla para<br/>girar la ruleta</p>
+      )}
       <div className="roulette-container">
         {data.length !== 0 && (
-          <div>
+          <div className="wheel-wrapper">
             <Wheel
               mustStartSpinning={rotate}
               prizeNumber={prizeNumber}
               data={data}
-              onStopSpinning={() => {
-                stopSpinning();
-              }}
-              outerBorderWidth={20}
-              outerBorderColor={"#0062AD"}
+              onStopSpinning={stopSpinning}
+              outerBorderWidth={14}
+              outerBorderColor={"#0c2340"}
               radiusLineWidth={0}
-              radiusLineColor="white"
+              radiusLineColor="#0c2340"
               fontSize={18}
+              fontWeight={700}
               spinDuration={0.5}
-              pointerProps={{
-                style: { width: "20%", top: "1dvh", right: "1dvh" },
-              }}
+              pointerProps={{ style: { width: "18%", top: "1dvh", right: "1dvh" } }}
               innerRadius={0}
-              innerBorderColor={"#0062AD"}
-              innerBorderWidth={40}
-              textDistance={55}
+              innerBorderColor={"#0c2340"}
+              innerBorderWidth={0}
+              textDistance={62}
             />
-            {text && (
-              <p className="text">Tocá la pantalla para girar la ruleta</p>
-            )}
+            <div className="wheel-center">
+              <img src={Icono} alt="" />
+            </div>
+            <div className="wheel-dots">
+              {Array.from({ length: 6 }).map((_, i) => (
+                <span key={i} className={`dot dot-${i}`} />
+              ))}
+            </div>
+            <div className="wheel-stand">
+              <div className="stand-neck" />
+              <div className="stand-base" />
+            </div>
           </div>
         )}
+      </div>
+      <div className="footer">
+        <img src={logo} alt="Banco Nación" />
       </div>
     </div>
   );
