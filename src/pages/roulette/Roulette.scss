@@ -139,6 +139,43 @@
       width: 30vw;
     }
   }
+
+  @media (min-width: 1000px) and (orientation: portrait) and (max-aspect-ratio: 65/100) {
+    .roulette-title { font-size: 8vw; }
+    .roulette-container .wheel-wrapper {
+      width: 90vw;
+      div:nth-of-type(1) {
+        width: 90vw !important;
+        height: 90vw !important;
+      }
+      .wheel-center {
+        width: 22vw;
+        height: 22vw;
+      }
+      .wheel-stand {
+        .stand-neck {
+          width: 25vw !important;
+          height: 37vw !important;
+        }
+        .stand-base {
+          width: 37vw;
+          height: 7.5vw;
+        }
+      }
+      .wheel-dots .dot {
+        width: 2.7vw;
+        height: 2.7vw;
+        margin: -1.35vw 0 0 -1.35vw;
+      }
+      @for $i from 0 through 5 {
+        .wheel-dots .dot-#{$i} {
+          $angle: $i * 60deg + 30deg;
+          transform: rotate($angle) translateY(-45vw) rotate(-$angle);
+        }
+      }
+    }
+    .footer img { width: 37vw; }
+  }
 }
 
 @keyframes zoom {

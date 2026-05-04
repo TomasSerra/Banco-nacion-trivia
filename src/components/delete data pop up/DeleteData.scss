@@ -64,4 +64,18 @@
             margin-bottom: 2dvh;
         }
     }
+
+    @media (min-width: 1000px) and (orientation: portrait) and (max-aspect-ratio: 65/100) {
+        .pop-up {
+            width: 86vw;
+            border-radius: 2.5vw;
+            h1 { font-size: 7.5vw; }
+            button { font-size: 6.2vw; }
+            p { font-size: 5vw; }
+            input {
+                font-size: 6.2vw;
+                padding-left: 2.5vw;
+            }
+        }
+    }
 }

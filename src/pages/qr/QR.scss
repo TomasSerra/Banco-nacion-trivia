@@ -57,4 +57,15 @@
         position: absolute;
         bottom: 10dvh;
     }
+
+    @media (min-width: 1000px) and (orientation: portrait) and (max-aspect-ratio: 65/100) {
+        .top-section img { width: 25vw; }
+        .title-section h1 { font-size: 12.5vw; }
+        .qr-section img { width: 74vw; }
+        .button {
+            width: 74vw;
+            height: 18.5vw;
+            font-size: 8.7vw;
+        }
+    }
 }

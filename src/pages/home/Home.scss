@@ -85,4 +85,16 @@
             width: 30vw;
         }
     }
+
+    @media (min-width: 1000px) and (orientation: portrait) and (max-aspect-ratio: 65/100) {
+        .center {
+            h1 { font-size: 13.5vw; }
+            p  { font-size: 6.8vw; }
+            .play-button {
+                width: 56vw;
+                height: 41vw;
+            }
+        }
+        .footer img { width: 37vw; }
+    }
 }

@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "trivia-dev",
+      "runtimeExecutable": "sh",
+      "runtimeArgs": ["-c", "PORT=3457 BROWSER=none npm start"],
+      "port": 3457
+    }
+  ]
+}

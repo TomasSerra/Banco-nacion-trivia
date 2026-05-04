@@ -114,4 +114,24 @@
   .zoom-in {
     animation: zoomIn 600ms cubic-bezier(0.34, 1.56, 0.64, 1) forwards;
   }
+
+  @media (min-width: 1000px) and (orientation: portrait) and (max-aspect-ratio: 65/100) {
+    .center {
+      h1 { font-size: 12.5vw; }
+      .score-pill {
+        padding: 1.6dvh 7.5vw;
+        font-size: 5vw;
+      }
+      .final-img-container {
+        width: 74vw;
+        height: 74vw;
+        .final-img.score-3 {
+          margin-left: 4vw;
+          width: 130%;
+        }
+        .final-text { font-size: 6.2vw; }
+      }
+    }
+    .footer img { width: 37vw; }
+  }
 }

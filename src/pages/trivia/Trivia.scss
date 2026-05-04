@@ -197,6 +197,33 @@
       }*/
     }
   }
+
+  @media (min-width: 1000px) and (orientation: portrait) and (max-aspect-ratio: 65/100) {
+    .top-section img { width: 25vw; }
+    .question-section {
+      .time-container {
+        width: 90vw;
+        height: 5vw;
+        .time-bar-container { height: 5vw; }
+      }
+      .question-container {
+        font-size: 4.4vw;
+        width: 90vw;
+        border-width: 1.9vw;
+        min-height: 37vw;
+      }
+      .result-container {
+        font-size: 5vw;
+        width: 90vw;
+        padding: 2dvh 2.5vw;
+      }
+    }
+    .options-section .options-container .option-button {
+      font-size: 5.5vw;
+      width: 90vw;
+      padding: 2.2dvh 2.5vw;
+    }
+  }
 }
 
 /* .selected {
